@@ -1,0 +1,8 @@
+<jellyProtocol>
+    <reference>/home/eenbody/ruff/pbjelly/readsubset_supernova_round2/data/reference/sn2.1.1_181012_inversion1107_1108.fasta</reference>
+    <outputDir>/home/eenbody/ruff/pbjelly/readsubset_supernova_round2</outputDir>
+    <blasr>--minMatch 8 --minPctSimilarity 70 --bestn 1 --nCandidates 20 --maxScore -500 --nproc 4 --noSplitSubreads</blasr>
+    <input baseDir="/home/eenbody/ruff/pbjelly/readsubset_supernova_round2/data/reads">
+        <job>pbsubreads_ruff_IndSatScafMapped.fastq</job>
+    </input>
+</jellyProtocol>

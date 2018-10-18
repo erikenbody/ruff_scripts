@@ -1,47 +1,14 @@
 ## Trying to fix PBJelly
 
-From Jason:
-```
-Hey Erik,
+The UPPMAX module for PBSuite is not able to fill gaps on the example data provided with the software for Jelly.py. From internet searching, it is clear that PBSuite has not kept pace with udpates to both Blasr and Networkx. Blasr is the bigger issue. Here are some notes on how I got Jelly.py to run on Uppmax.
 
-The jelly runs have been done here:
-/proj/uppstore2017195/users/jasonh/ruff/assembly_runs/PBjelly
-ind, sat, etc., are the various runs I've tried.  The files specifying
-the files and settings are variously *Protocol.xml.
-Using fasta reference and fastq reads, or a fasta + qual references and
-fasta + qual reads makes no difference. All quality scores are fake and
-set at 40 since the pbsubreads_ruff.fasta and references had no quality
-scores.
+Because I am recently arrived, the below is notes on setting this up from scratch.
 
-The basic pipeline is in runJelly.sh
-
-The example data is in
-/proj/uppstore2017195/users/jasonh/tools/PBSuite_15.8.24/docs/jellyExample
-
-In order to run the local install instead of the uppmax module first you
-need to source
-/proj/uppstore2017195/users/jasonh/tools/PBSuite_15.8.24/setup.sh
-
-Results are summarized in gap_fill_status.txt and output.err in each
-output directory. In all cases so far the result has been a whole list
-of "unimproved gap"
-
-Good hunting,
-Jason
-```
-
-First trying to run with my own install
-
-Looking at the PBJelly page, I can see I need to install my own networkx installation
+### User specific install Networkx version 1.1
 Following: https://www.uppmax.uu.se/support/user-guides/python-modules-guide/
-To set up local python env from home directory (lazy)
+To set up local 2.7.6 python env from home directory. Also requires numpy and pyparsing.
 
-Then following: https://networkx.github.io/documentation/networkx-1.11/install.html
 ```
-wget https://github.com/networkx/networkx/archive/networkx-1.11.tar.gz
-#tar -xvf networkx-1.11.tar.gz
-#cd networkx-networkx-1.11/
-#python setup.py install
 #this was stupid i meant 1.1
 pip install networkx==1.1
 #this works
@@ -50,27 +17,36 @@ pip install numpy
 pip install show
 pip show networkx
 #is correct
+pip install pyparsing
 ```
 
-Some deep buried documentation suggests that networkx 1.7 should work too
+Some deep buried documentation suggests that networkx 1.7 should work too.
 
+###  User specific install Blasr
 
-Then spent some time trying to install blasr, which requires conda. Tried some lazy things but just installing miniconda on my own worked best:
+I initially did a local install for Blasr in hopes I could install the old version, but I suspect loading the Uppmax module work work with the patches I made to the PBsuite scripts.
+
+First installed miniconda
 https://conda.io/docs/user-guide/install/linux.html
 ```
 conda install -c bioconda blasr
 ````
 
-Next I tested an install on my macbook and this failed.
+### Specific notes on edits to PBSuite scripts
 
-Some further digging revealed its a deeper problem that PBSuite has not updated with Blasr updates and the documentation does not reflect this.
+The reason Jelly.py fails is that Blasr switched to using -- flags for commands that are full words : https://www.biostars.org/p/198519/
 
-tried fixing blasr flags : https://www.biostars.org/p/198519/
-*fixed in many places, changed from - to --*
+This repository contains the PBSuite where I switch all the - flags to -- for Blasr ONLY FOR COMMANDS RELATING TO PBJELLY. Not the other PBSuite modules.
 
-this eventually worked
+I looked long enough to get the example code to work, but there may be other places this software is broken that I didn't find.
 
-on upmax had to install pyparsing
-```
-pip install pyparsing
-```
+PBSuite was developed by A. English: https://sourceforge.net/projects/pb-jelly/
+
+### For others to install on UPPMAX
+
+1) clone this repository
+2) Edit setup.sh to have a path to the folder containing PBsuite
+3) In your bash profile source setup.sh and also your .bash_profile (so that the script will load your own python environment)
+4) Make sure Protocol.xml includes -- flags for blasr commands
+
+An example of a script can be found under EDE_example 
