@@ -1,0 +1,41 @@
+2018-10-15 16:13:10,128 [INFO] Running /Users/erikenbody/Google_Drive/Tulane/WSFW_Data/Genomics_DNA_RNA/Bioinformatics_Software/PBSuite_15.8.24/bin/Assembly.py /Users/erikenbody/Google_Drive/Tulane/WSFW_Data/Genomics_DNA_RNA/Bioinformatics_Software/PBSuite_15.8.24/docs/jellyExample/assembly/ref0000002e5_ref0000003e3
+2018-10-15 16:13:12,654 [INFO] Preunited 0 reads
+2018-10-15 16:13:13,021 [INFO] Running /Users/erikenbody/Google_Drive/Tulane/WSFW_Data/Genomics_DNA_RNA/Bioinformatics_Software/PBSuite_15.8.24/bin/Assembly.py /Users/erikenbody/Google_Drive/Tulane/WSFW_Data/Genomics_DNA_RNA/Bioinformatics_Software/PBSuite_15.8.24/docs/jellyExample/assembly/ref0000002e5_ref0000003e3
+2018-10-15 16:13:13,024 [INFO] Extracting tails
+2018-10-15 16:13:13,025 [INFO] Parsed 22 reads
+2018-10-15 16:13:13,025 [INFO] Found 23 tails
+2018-10-15 16:13:13,025 [INFO] 1 reads had double tails
+2018-10-15 16:13:13,025 [INFO] Mapping Tails
+2018-10-15 16:13:13,112 [INFO] [0, '[INFO] 2018-10-15T16:13:13 [blasr] started.\n[INFO] 2018-10-15T16:13:13 [blasr] ended.\n', None]
+2018-10-15 16:13:13,112 [INFO] Consolidating alignments
+2018-10-15 16:13:13,115 [INFO] 22 tails mapped
+2018-10-15 16:13:13,119 [INFO] fill seq is too short to call consensus
+2018-10-15 16:13:13,119 [INFO] fill seq is too short to call consensus
+2018-10-15 16:13:13,119 [INFO] fill seq is too short to call consensus
+2018-10-15 16:13:13,119 [INFO] fill seq is too short to call consensus
+2018-10-15 16:13:13,119 [INFO] fill seq is too short to call consensus
+2018-10-15 16:13:13,120 [INFO] fill seq is too short to call consensus
+2018-10-15 16:13:13,120 [INFO] fill seq is too short to call consensus
+2018-10-15 16:13:13,120 [INFO] fill seq is too short to call consensus
+2018-10-15 16:13:13,120 [INFO] fill seq is too short to call consensus
+2018-10-15 16:13:13,121 [INFO] fill seq is too short to call consensus
+2018-10-15 16:13:13,121 [INFO] fill seq is too short to call consensus
+2018-10-15 16:13:13,121 [INFO] fill seq is too short to call consensus
+2018-10-15 16:13:13,121 [INFO] fill seq is too short to call consensus
+2018-10-15 16:13:13,122 [INFO] fill seq is too short to call consensus
+2018-10-15 16:13:13,122 [INFO] fill seq is too short to call consensus
+2018-10-15 16:13:13,122 [INFO] fill seq is too short to call consensus
+2018-10-15 16:13:13,122 [INFO] fill seq is too short to call consensus
+2018-10-15 16:13:13,122 [INFO] fill seq is too short to call consensus
+2018-10-15 16:13:13,123 [INFO] fill seq is too short to call consensus
+2018-10-15 16:13:13,123 [INFO] fill seq is too short to call consensus
+2018-10-15 16:13:13,123 [INFO] 20 reads span
+2018-10-15 16:13:13,123 [INFO] 21 reads extend flank 1
+2018-10-15 16:13:13,123 [INFO] 20 reads extend flank 2
+2018-10-15 16:13:13,124 [INFO] estimated fill len 4
+2018-10-15 16:13:13,124 [WARNING] fill sequence is small (12bp) can't call consensus
+2018-10-15 16:13:13,125 [INFO] estimated flank 1 extend len 562
+2018-10-15 16:13:13,125 [INFO] estimated flank 2 extend len 1016
+2018-10-15 16:13:13,163 [INFO] no mapping... picking span seq
+2018-10-15 16:13:13,206 [INFO] Cleaning 10 temp files
+2018-10-15 16:13:13,207 [INFO] Finished

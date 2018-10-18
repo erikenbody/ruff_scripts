@@ -1,0 +1,20 @@
+2018-10-15 16:13:15,533 [INFO] Running /Users/erikenbody/Google_Drive/Tulane/WSFW_Data/Genomics_DNA_RNA/Bioinformatics_Software/PBSuite_15.8.24/bin/Assembly.py /Users/erikenbody/Google_Drive/Tulane/WSFW_Data/Genomics_DNA_RNA/Bioinformatics_Software/PBSuite_15.8.24/docs/jellyExample/assembly/ref0000002.0e3_ref0000002.1e5 -p 50
+2018-10-15 16:13:16,890 [INFO] Preunited 0 reads
+2018-10-15 16:13:17,187 [INFO] Running /Users/erikenbody/Google_Drive/Tulane/WSFW_Data/Genomics_DNA_RNA/Bioinformatics_Software/PBSuite_15.8.24/bin/Assembly.py /Users/erikenbody/Google_Drive/Tulane/WSFW_Data/Genomics_DNA_RNA/Bioinformatics_Software/PBSuite_15.8.24/docs/jellyExample/assembly/ref0000002.0e3_ref0000002.1e5 -p 50
+2018-10-15 16:13:17,189 [INFO] Extracting tails
+2018-10-15 16:13:17,190 [INFO] Parsed 15 reads
+2018-10-15 16:13:17,190 [INFO] Found 16 tails
+2018-10-15 16:13:17,190 [INFO] 2 reads had double tails
+2018-10-15 16:13:17,190 [INFO] Mapping Tails
+2018-10-15 16:13:17,256 [INFO] [0, '[INFO] 2018-10-15T16:13:17 [blasr] started.\n[INFO] 2018-10-15T16:13:17 [blasr] ended.\n', None]
+2018-10-15 16:13:17,256 [INFO] Consolidating alignments
+2018-10-15 16:13:17,259 [INFO] 12 tails mapped
+2018-10-15 16:13:17,262 [INFO] fill seq is too short to call consensus
+2018-10-15 16:13:17,263 [INFO] 9 reads span
+2018-10-15 16:13:17,263 [INFO] 12 reads extend flank 1
+2018-10-15 16:13:17,263 [INFO] 10 reads extend flank 2
+2018-10-15 16:13:17,263 [INFO] estimated fill len 56
+2018-10-15 16:13:17,264 [INFO] estimated flank 1 extend len 380
+2018-10-15 16:13:17,264 [INFO] estimated flank 2 extend len 566
+2018-10-15 16:13:17,346 [INFO] Cleaning 10 temp files
+2018-10-15 16:13:17,348 [INFO] Finished

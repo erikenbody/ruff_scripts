@@ -1,0 +1,16 @@
+[WARNING] Couldn't find /Users/erikenbody/Google_Drive/Tulane/WSFW_Data/Genomics_DNA_RNA/Bioinformatics_Software/PBSuite_15.8.24/docs/jellyExample/data/reference/lambda.qual... assuming there isn't a quality file for the reference
+2018-10-15 16:12:57,157 [INFO] Running /Users/erikenbody/Google_Drive/Tulane/WSFW_Data/Genomics_DNA_RNA/Bioinformatics_Software/PBSuite_15.8.24/bin/Extraction.py /Users/erikenbody/Google_Drive/Tulane/WSFW_Data/Genomics_DNA_RNA/Bioinformatics_Software/PBSuite_15.8.24/docs/jellyExample/Protocol.xml
+[WARNING] Couldn't find /Users/erikenbody/Google_Drive/Tulane/WSFW_Data/Genomics_DNA_RNA/Bioinformatics_Software/PBSuite_15.8.24/docs/jellyExample/data/reference/lambda.qual... assuming there isn't a quality file for the reference
+2018-10-15 16:12:57,158 [INFO] Opening GML Files
+2018-10-15 16:12:57,219 [INFO] Loading Reference Sequence
+2018-10-15 16:12:57,225 [INFO] Extracting Reads
+2018-10-15 16:12:57,225 [INFO] Parsing /Users/erikenbody/Google_Drive/Tulane/WSFW_Data/Genomics_DNA_RNA/Bioinformatics_Software/PBSuite_15.8.24/docs/jellyExample/data/reads/filtered_subreads.fastq
+2018-10-15 16:12:57,265 [INFO] Loaded 500 Reads
+2018-10-15 16:12:57,267 [INFO] Parsed 108 Reads
+2018-10-15 16:12:57,267 [WARNING] /Users/erikenbody/Google_Drive/Tulane/WSFW_Data/Genomics_DNA_RNA/Bioinformatics_Software/PBSuite_15.8.24/docs/jellyExample/assembly/ref0000002.0e3_ref0000002.1e5 already exists... overwriting results
+2018-10-15 16:12:57,268 [WARNING] /Users/erikenbody/Google_Drive/Tulane/WSFW_Data/Genomics_DNA_RNA/Bioinformatics_Software/PBSuite_15.8.24/docs/jellyExample/assembly/ref0000002.1e3_ref0000002.2e5 already exists... overwriting results
+2018-10-15 16:12:57,268 [WARNING] /Users/erikenbody/Google_Drive/Tulane/WSFW_Data/Genomics_DNA_RNA/Bioinformatics_Software/PBSuite_15.8.24/docs/jellyExample/assembly/ref0000001e5_ref0000002e3 already exists... overwriting results
+2018-10-15 16:12:57,269 [WARNING] /Users/erikenbody/Google_Drive/Tulane/WSFW_Data/Genomics_DNA_RNA/Bioinformatics_Software/PBSuite_15.8.24/docs/jellyExample/assembly/ref0000003.0e3_ref0000003.1e5 already exists... overwriting results
+2018-10-15 16:12:57,271 [WARNING] /Users/erikenbody/Google_Drive/Tulane/WSFW_Data/Genomics_DNA_RNA/Bioinformatics_Software/PBSuite_15.8.24/docs/jellyExample/assembly/ref0000001e3_ref0000003e5 already exists... overwriting results
+2018-10-15 16:12:57,272 [WARNING] /Users/erikenbody/Google_Drive/Tulane/WSFW_Data/Genomics_DNA_RNA/Bioinformatics_Software/PBSuite_15.8.24/docs/jellyExample/assembly/ref0000002e5_ref0000003e3 already exists... overwriting results
+2018-10-15 16:12:57,274 [INFO] Finished

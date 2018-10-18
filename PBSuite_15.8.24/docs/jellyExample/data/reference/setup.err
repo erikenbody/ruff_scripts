@@ -1,0 +1,4 @@
+2018-10-15 16:06:55,833 [INFO] Running /Users/erikenbody/Google_Drive/Tulane/WSFW_Data/Genomics_DNA_RNA/Bioinformatics_Software/PBSuite_15.8.24/bin/Setup.py /Users/erikenbody/Google_Drive/Tulane/WSFW_Data/Genomics_DNA_RNA/Bioinformatics_Software/PBSuite_15.8.24/docs/jellyExample/data/reference/lambda.fasta -g /Users/erikenbody/Google_Drive/Tulane/WSFW_Data/Genomics_DNA_RNA/Bioinformatics_Software/PBSuite_15.8.24/docs/jellyExample/data/reference/lambda.gapInfo.bed -i
+2018-10-15 16:06:55,833 [INFO] Creating reference sequence index names and identifying gaps
+2018-10-15 16:06:55,842 [INFO] Creating .sa indexes for references
+2018-10-15 16:06:55,953 [INFO] Finished!

@@ -1,0 +1,62 @@
+{
+    "avgSpanBases": 860, 
+    "predictedGapSize": 961, 
+    "sameStrand": true, 
+    "fillBases": 832, 
+    "extendF2SeedStrand": "0", 
+    "spanSeedStart": 1003, 
+    "avgExtF2Bases": 873, 
+    "extendF1Count": 9, 
+    "extendF1SeedScore": -7365, 
+    "avgExtF1Bases": 868, 
+    "contribSeqs": 14, 
+    "extendF2SeedStart": 0, 
+    "extendSeq2": null, 
+    "extendF1SeedName": "m130724_230321_00121_c100518582550000001823079209281361_s1_p0/153813/407_2743", 
+    "contribBases": 9330, 
+    "fillSeq": "TGACATCAGCAGGAATCTGGAACCGCGAACGAATCAGCAACTCACAAAACGGGATCGTGAAAGAATCAAAGGCGCGGACACGTTCATCTTGGTCATACGCCACCAGTGAAACCACTCAAGTTTGCCAACCAAATGTATATCGATACCGGCGCAGTGTTCTGCGGAAACCTAACATTGATTCAGGTACAGGGAGAAGGCGCATGAGACTCGAAAGCGTAGCTAAATTTCATTCGCCAAAAAGCCGATGATGAGCGACTCACCACGGGCCACGGCTTCTGACTCTCTTTCCGGTACTGATGTGATGCTGCTATGGGATGGCGCAATCACAAGCCGATTCGGTATGGCTGCATCTGCGGTAAGCACGAACTCAGCCAGAACGACAAACAAAAGGCTATCAACTATCTGATGCAATTTGCACACAAGGTATCGGGGAAATACCGTGGTGTGGCAAAGCTTGAAGAAATACAAAGGCAAAGGTACTGCAAGTGCTCGCAACATTCGCTTATGCGGATTATTGCCGTAGTGCCGCGACGCCGGGGGCAAGATGCAGAGATTGCCATGGTACAGGCCGTGCGGTTGATATTGCCAAAACAGAGCTGTGGGGGAGAGTTGTCAGAAAGAGTGCGGAAGATGCAAAGGCGTCGGCTATTCAAGGATGCCAGCAAGCGCAGCATATCGCGCTGTGACGATGCTAATCCCAAACCTTACCCAACCCACCTGGTCACGCACTGTTAAGCGCTGTATGACGCTCTGGTGGTGCAATGCCACAAAGAAGAGTCAATCGCAGACAACATTTTGAATGCGGTCACACGTTAGCACATGATGCCAGGAT", 
+    "extendF1SeedEnd": 2336, 
+    "extendF2SeedEnd": 358, 
+    "extendF1SeedStrand": "0", 
+    "spanSeedStrand2": "0", 
+    "spanSeedEnd": 1858, 
+    "spanSeedStrand1": "0", 
+    "extendF2Count": 6, 
+    "support": [
+        [
+            3, 
+            3
+        ], 
+        [
+            2, 
+            2, 
+            2, 
+            2, 
+            2, 
+            2, 
+            2, 
+            2, 
+            2
+        ], 
+        [
+            1, 
+            1, 
+            1, 
+            1, 
+            1, 
+            1
+        ]
+    ], 
+    "spanCount": 2, 
+    "extendF2SeedName": "m130725_000747_00121_c100518582550000001823079209281362_s1_p0/130868/0_2054", 
+    "spanSeedName": "m130724_230321_00121_c100518582550000001823079209281361_s1_p0/159311/4554_6991", 
+    "extendF1SeedStart": 2204, 
+    "seed1": "ref0000003.0e3", 
+    "seed2": "ref0000003.1e5", 
+    "extendF2SeedScore": -7540, 
+    "extendSeq1": null, 
+    "seed2Trim": 8, 
+    "spanShort": false, 
+    "spanSeedScore": -3428, 
+    "seed1Trim": 0
+}

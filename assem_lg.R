@@ -1,0 +1,21 @@
+library(data.table)
+library(dplyr)
+library(ggplot2)
+
+rsat<-fread("data/supernova_assembly/pseudohap2.1.SatInversionScaffold.fasta.fai",col.names = c("Scaff","Length","C","D","E"),header=T)
+rsat$Length<-as.numeric(rsat$Length)
+hist(rsat$Length,ylim==100)
+ggplot(rsat, aes(Length))+geom_histogram(bins=1000) + xlim(0,10000) + geom_vline(aes(xintercept=1400))
+max(rsat$Length)
+mean(rsat$Length)
+min(rsat$Length)
+median(rsat$Length)
+quantile(rsat$Length, .1)
+
+nrow(rsat)
+rsat%>%filter(Length>1400)%>%nrow()
+rsat%>%filter(Length>2066)%>%nrow()
+rsat%>%filter(Length>5000)%>%nrow()
+rsat%>%filter(Length>1000)%>%nrow()
+
+rsat%>%filter(Length>5000)%>%ggplot(aes(Length))+geom_histogram()

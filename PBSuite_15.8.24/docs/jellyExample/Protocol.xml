@@ -1,0 +1,8 @@
+<jellyProtocol>
+    <reference>/Users/erikenbody/Google_Drive/Tulane/WSFW_Data/Genomics_DNA_RNA/Bioinformatics_Software/PBSuite_15.8.24/docs/jellyExample/data/reference/lambda.fasta</reference>
+    <outputDir>/Users/erikenbody/Google_Drive/Tulane/WSFW_Data/Genomics_DNA_RNA/Bioinformatics_Software/PBSuite_15.8.24/docs/jellyExample/</outputDir>
+    <blasr>--minMatch 8 --minPctSimilarity 70 --bestn 1 --nCandidates 20 --maxScore -500 --nproc 4 --noSplitSubreads</blasr>
+    <input baseDir="/Users/erikenbody/Google_Drive/Tulane/WSFW_Data/Genomics_DNA_RNA/Bioinformatics_Software/PBSuite_15.8.24/docs/jellyExample/data/reads/">
+        <job>filtered_subreads.fastq</job>
+    </input>
+</jellyProtocol>
