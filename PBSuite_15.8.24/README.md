@@ -6,7 +6,9 @@ Because I am recently arrived, the below is notes on setting this up from scratc
 
 ### User specific install Networkx version 1.1
 Following: https://www.uppmax.uu.se/support/user-guides/python-modules-guide/
-To set up local 2.7.6 python env from home directory. Also requires numpy and pyparsing.
+To set up local 2.7.6 python env from home directory.
+
+PBJelly requires networkx 1.1, numpy, and pyparsing
 
 ```
 #this was stupid i meant 1.1
@@ -49,4 +51,4 @@ PBSuite was developed by A. English: https://sourceforge.net/projects/pb-jelly/
 3) In your bash profile source setup.sh and also your .bash_profile (so that the script will load your own python environment)
 4) Make sure Protocol.xml includes -- flags for blasr commands
 
-An example of a script can be found under EDE_example 
+An example of a script can be found under EDE_example
